@@ -75,12 +75,12 @@ work-process:
 
 skills-title: Skills
 skills:
-- {name: Python, color: '#fdb157'}
-- {name: SQL, color: '#fdb157'}
-- {name: Machine Learning, color: '#ffbcaa'}
-- {name: Data Engineering, color: '#ffbcaa'}
-- {name: Business Intelligence, color: '#ffbcaa'}
-- {name: Cheminformatics, color: '#9473e6'}
+- {name: Python, value: '1o0%', color: '#fdb157'}
+- {name: SQL, value: '70%', color: '#fdb157'}
+- {name: Machine Learning, value: '85%', color: '#ffbcaa'}
+- {name: Data Engineering, value: '80%', color: '#ffbcaa'}
+- {name: Business Intelligence, value: '70%', color: '#ffbcaa'}
+- {name: Cheminformatics, value: '90%', color: '#9473e6'}
 
 
 #-------------------------------
@@ -155,7 +155,7 @@ portfolio-label:
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://github.com/rahulavadhoot/data-science-portfolio"
     portfolio-type:
      - type: "ml"
 
