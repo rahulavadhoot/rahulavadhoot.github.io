@@ -135,7 +135,7 @@ services:
 # Portfolio Home Section
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
-    url: "#"
+    url: "https://github.com/rahulavadhoot/data-science-portfolio"
 
 
 # Portfolio Page
