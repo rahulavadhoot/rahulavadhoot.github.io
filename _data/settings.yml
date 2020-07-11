@@ -1,17 +1,16 @@
 #-------------------------------
 # General Site Settings
 
-title: Kross - Jekyll Portfolio Template
+title: Rahul Avadhoot
 logo: logo.png
-email: steve.fruits@email.com
-phone: +880 2544 658 256
-address: 125/A, CA Commercial Area, California, USA
+email: rahul.avadhoot@gmail.com
+address: 1741 Camden Ave, Los Angeles, CA 90025
 
 menu:
-- {name: About, link: '/about/'}
-- {name: Blog, link: '/blog/'}
-- {name: Portfolio, link: '/portfolio/'}
-- {name: Contact, link: '/contact/'}
+- {name: About, link: '/about.html'}
+- {name: Blog, link: '/blog.html'}
+- {name: Portfolio, link: '/portfolio.html'}
+- {name: Contact, link: '/contact.html'}
 
 
 #-------------------------------
@@ -35,13 +34,13 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Christoher <br> UX designer
+  hero-title: Hi! I’m <br> Rahul <br> Data Scientist
 
 social:
-- {icon: "ti-facebook", link: "#"}
-- {icon: "ti-instagram", link: "#"}
-- {icon: "ti-dribbble", link: "#"}
-- {icon: "ti-twitter", link: "#"}
+- {icon: "ti-linkedin", link: "https://linkedin.com/in/rahulavadhoot"}
+- {icon: "ti-github", link: "https://github.com/rahulavadhoot"}
+- {icon: "ti-twitter", link: "https://twitter.com/rahulavadhoot"}
+- {icon: "ti-instagram", link: "https://www.instagram.com/rahulavadhoot/"}
 
 
 #-------------------------------
@@ -49,7 +48,7 @@ social:
 
 # About Section
 blurb:
-  Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+  Data Scientist with a background in chemical engineering and 3 years experience in machine learning, cheminformatics, and data science. Passionate about building data-driven products for chemical, biological, and business data. My interests include machine learning, artificial intelligence, big-data analytics, cheminformatics, evolutionary algorithms, and databases.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -61,30 +60,15 @@ blurb-btn-name: know more
 work-process:
   - title : "Research and Plan"
     icon : "assets/images/icons/plan.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "hello world"
     
   - title : "Design and Develop"
     icon : "assets/images/icons/design.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+    content : "hello world"
     
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-
-
-# My Team Section
-team:
-  - title : "Jack Schenziwe"
-    image : "assets/images/team/member-1.png"
-    designation : "Project Manager"
-    
-  - title : "Julias Carlie"
-    image : "assets/images/team/member-2.png"
-    designation : "Web Developer"
-    
-  - title : "John Doe"
-    image : "assets/images/team/member-3.png"
-    designation : "Designer"
+    content : "hello world"
 
 
 #-------------------------------
@@ -92,20 +76,20 @@ team:
 
 skills-title: Skills
 skills:
-- {name: Web Design, color: '#fdb157', value: '90%'}
-- {name: Logo Design, color: '#9473e6', value: '60%'}
-- {name: After Effects, color: '#bdecf6', value: '80%'}
-- {name: Web App, color: '#ffbcaa', value: '70%'}
+- {name: Machine Learning, color: '#fdb157', value: '80%'}
+- {name: Cheminformatics, color: '#9473e6', value: '80%'}
+- {name: Business Intelligence, color: '#bdecf6', value: '60%'}
+- {name: Data Science, color: '#ffbcaa', value: '90%'}
 
 
 #-------------------------------
-# Exprerience Section
+# Experience Section
 
 experience-title: Experience
 experience:
-- {name: Junior UX Designer, icon: 'icon-1.png', date: 'Jan 2007 - Feb 2009', organization: 'WEBEX'}
-- {name: UX & UI Designer, icon: 'icon-2.png', date: 'Mar 2009 - Aug 2014', organization: 'AUGMEDIX'}
-- {name: Senior UI Designer, icon: 'icon-3.png', date: 'Sep 2014 - Present', organization: 'THEMEFISHER'}
+- {name: Process Engineer, icon: 'icon-1.png', date: 'Jul 2015 - Jul 2016', organization: 'Reliance Industries'}
+- {name: Data Science Resident, icon: 'icon-2.png', date: 'Apr 2019 - Mar 2020', organization: 'Qulab'}
+- {name: Data Analyst, icon: 'icon-3.png', date: 'Jun 2020 - Present', organization: 'Darcy Partners'}
 
 
 #-------------------------------
@@ -113,10 +97,9 @@ experience:
 
 education-title: Education
 education:
-- {name: Marters in UX Design, date: '2006', organization: 'Masassusets Institute of Technology'}
-- {name: Honours in Fine Arts, date: '2004', organization: 'Harvard University'}
-- {name: Higher Secondary Certificat, date: '2000', organization: 'Cardiff School'}
-- {name: Secondary School Certificate, date: '1998', organization: 'Cardiff School'}
+- {name: Master of Science in Chemical Engineering, date: '2018', organization: 'University of Washington'}
+- {name: Minor in Data Science, date: '2018', organization: 'University of Washington'}
+- {name: Bachelor of Technology in Chemical Engineering, date: '2015', organization: 'Visvesvaraya National Institute of Technology'}
 
 
 #-------------------------------
@@ -125,21 +108,21 @@ education:
 services-title: Services
 services:
 - {
-    name: UI Design,
+    name: Predictive Modeling,
     icon: ti-palette,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'Hello world',
     active: # Add true to select section
   }
 - {
-    name: UX Design,
+    name: BI Dashboarding,
     icon: ti-vector,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'hello world',
     active: true # Add true to select section
   }
 - {
-    name: Interaction Design,
+    name: Data Science Tools,
     icon: ti-panel,
-    description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+    description: 'hello world',
     active: # Add true to select section
   }
 
@@ -232,25 +215,6 @@ portfolio-items:
       - type: "illustration"
 
 
-#-------------------------------
-# Testimonials Section
-
-testimonial-items:
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation : "CEO, Funder"
-    content : "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-    
-  - name: "Jesica Gomez"
-    image: "assets/images/testimonial/client-1.png"
-    designation: "CEO, Funder"
-    content: "Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, <strong>quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</strong> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur."
-
 
 #-------------------------------
 # Client Slider Section
@@ -290,4 +254,4 @@ client-slider-items:
 # Contact Section
 
 contact-title: Contact Info
-contact-email: steve.fruits@email.com
+contact-email: rahul.avadhoot@gmail.com
