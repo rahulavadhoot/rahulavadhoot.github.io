@@ -1,18 +1,17 @@
 ---
 layout: about
 title: About Me
-author: Johnathan Smith
+author: Rahul Avadhoot
 image: assets/images/about/author.jpg
-signature: assets/images/about/signature.png
 ---
 
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-commodo consequat.
+Data Scientist with a background in chemical engineering and 3 years experience in machine learning, cheminformatics, and data science. Passionate about building data-driven products for chemical, biological, and business data.
 
-Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-Excepteur sint occaecat cupidatat non proident.
+My interests include machine learning, artificial intelligence, big-data analytics, cheminformatics, evolutionary algorithms, and databases.
 
-Deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem
-accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
-architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia.
+Skills:
+* Python, R, Bash, SQL, MongoDB
+* Cloud: AWS, Azure, Docker, Heroku
+* Machine Learning: linear regression with regularization, logistic regression, support vector machines, tree-based algorithms, clustering (hierarchical, centroid, density-based), dimensionality reduction (linear, non-linear), neural networks (MLPs, CNNs, RNNs)
+* Python Packages: pandas, scikit-learn, tensorflow, rdkit, matplotlib, seaborn, dash, plotly, bokeh
+* Experienced with version control (Git, GitHub), test-driven development, big data, and high-performance computing
