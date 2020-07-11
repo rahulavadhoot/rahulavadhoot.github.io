@@ -8,7 +8,7 @@ address: 1741 Camden Ave, Los Angeles, CA 90025
 menu:
 - {name: About, link: '/about.html'}
 - {name: Blog, link: '/blog.html'}
-- {name: Portfolio, link: '/portfolio.html'}
+- {name: Projects, link: '/projects.html'}
 - {name: Contact, link: '/contact.html'}
 
 
