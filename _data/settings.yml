@@ -2,7 +2,6 @@
 # General Site Settings
 
 title: Rahul Avadhoot
-logo: logo.png
 email: rahul.avadhoot@gmail.com
 address: 1741 Camden Ave, Los Angeles, CA 90025
 
@@ -34,7 +33,7 @@ disqus-identifier: # Add your shortname for Disqus Comment. For example mr-brown
 # Hero Section
 
 hero:
-  hero-title: Hi! I’m <br> Rahul <br> a Data Scientist
+  hero-title: Hi! I’m <br> Rahul <br> a Data Science professional
 
 social:
 - {icon: "ti-linkedin", link: "https://linkedin.com/in/rahulavadhoot"}
@@ -48,7 +47,7 @@ social:
 
 # About Section
 blurb:
-  Data Scientist with a background in chemical engineering and 3 years experience in machine learning, cheminformatics, and data science. Passionate about building data-driven products for chemical, biological, and business data. My interests include machine learning, artificial intelligence, big-data analytics, cheminformatics, evolutionary algorithms, and databases.
+  Data Scientist with a background in chemical engineering and 3 years experience in machine learning, cheminformatics, and data science. Passionate about building data-driven products for chemical, biological, and business data.
 
 blurb-btn-link: '/about'
 blurb-btn-name: know more
@@ -58,17 +57,17 @@ blurb-btn-name: know more
 
 # Work Process Section
 work-process:
-  - title : "Research and Plan"
+  - title : "Research"
     icon : "assets/images/icons/plan.png"
-    content : "hello world"
+    content : "Research solutions to business problems"
     
-  - title : "Design and Develop"
+  - title : "Develop"
     icon : "assets/images/icons/design.png"
-    content : "hello world"
+    content : "Develop prototype solutions and improve iteratively"
     
   - title : "Deliver"
     icon : "assets/images/icons/print.png"
-    content : "hello world"
+    content : "Deliver scalable solutions as a final product"
 
 
 #-------------------------------
@@ -76,10 +75,12 @@ work-process:
 
 skills-title: Skills
 skills:
-- {name: Machine Learning, color: '#fdb157', value: '80%'}
-- {name: Cheminformatics, color: '#9473e6', value: '80%'}
-- {name: Business Intelligence, color: '#bdecf6', value: '60%'}
-- {name: Data Science, color: '#ffbcaa', value: '90%'}
+- {name: Python, color: '#fdb157'}
+- {name: SQL, color: '#fdb157'}
+- {name: Machine Learning, color: '#ffbcaa'}
+- {name: Data Engineering, color: '#ffbcaa'}
+- {name: Business Intelligence, color: '#ffbcaa'}
+- {name: Cheminformatics, color: '#9473e6'}
 
 
 #-------------------------------
@@ -87,9 +88,9 @@ skills:
 
 experience-title: Experience
 experience:
-- {name: Process Engineer, icon: 'icon-1.png', date: 'Jul 2015 - Jul 2016', organization: 'Reliance Industries'}
-- {name: Data Science Resident, icon: 'icon-2.png', date: 'Apr 2019 - Mar 2020', organization: 'Qulab'}
 - {name: Data Analyst, icon: 'icon-3.png', date: 'Jun 2020 - Present', organization: 'Darcy Partners'}
+- {name: Data Science Resident, icon: 'icon-2.png', date: 'Apr 2019 - Mar 2020', organization: 'Qulab'}
+- {name: Process Engineer, icon: 'icon-1.png', date: 'Jul 2015 - Jul 2016', organization: 'Reliance Industries'}
 
 
 #-------------------------------
@@ -105,24 +106,24 @@ education:
 #-------------------------------
 # Services Section
 
-services-title: Services
+services-title: Specialities
 services:
 - {
     name: Predictive Modeling,
     icon: ti-palette,
-    description: 'Hello world',
+    description: 'Scalable machine learning solutions',
     active: # Add true to select section
   }
 - {
     name: BI Dashboarding,
     icon: ti-vector,
-    description: 'hello world',
+    description: 'Power BI and Tableau dashboards to drive business insight',
     active: true # Add true to select section
   }
 - {
     name: Data Science Tools,
     icon: ti-panel,
-    description: 'hello world',
+    description: "Tools for data cleaning, transformation and visualization",
     active: # Add true to select section
   }
 
@@ -135,120 +136,33 @@ services:
 portfolio-home-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
-    
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-4.png"
-    url: "#"
-    
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
 
 
 # Portfolio Page
 portfolio-label:
 - {
-    title : "UI/UX Design",
-    type : "design"
+    title : "Machine learning",
+    type : "ml"
   }
 - {
-    title : "BRANDING",
-    type : "branding"
+    title : "Business Intelligence",
+    type : "bi"
   }
 - {
-    title : "ILLUSTRATION",
-    type : "illustration"
+    title : "Cheminformatics",
+    type : "cix"
   }
 
 portfolio-items:
   - image : "assets/images/portfolio/item-1.png"
     url: "#"
     portfolio-type:
-     - type: "design"
-     - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-2.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-6.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-8.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-      
-  - image : "assets/images/portfolio/item-5.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      
-  - image : "assets/images/portfolio/item-1.png"
-    url: "#"
-    portfolio-type:
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-3.png"
-    url: "#"
-    portfolio-type:
-      - type: "design"
-      - type: "illustration"
-      - type: "branding"
-      
-  - image : "assets/images/portfolio/item-7.png"
-    url: "#"
-    portfolio-type:
-      - type: "illustration"
-
+     - type: "ml"
 
 
 #-------------------------------
 # Client Slider Section
 
-client-slider-items:
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-1.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-2.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-3.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-4.png"
-    url: "#"
-    
-  - logo: "assets/images/clients-logo/client-logo-5.png"
-    url: "#"
 
 #-------------------------------
 # Contact Section
