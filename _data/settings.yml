@@ -75,7 +75,7 @@ work-process:
 
 skills-title: Skills
 skills:
-- {name: Python, value: '1o0%', color: '#fdb157'}
+- {name: Python, value: '100%', color: '#fdb157'}
 - {name: SQL, value: '70%', color: '#fdb157'}
 - {name: Machine Learning, value: '85%', color: '#ffbcaa'}
 - {name: Data Engineering, value: '80%', color: '#ffbcaa'}
